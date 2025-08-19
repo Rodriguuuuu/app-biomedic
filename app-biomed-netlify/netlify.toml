@@ -1,4 +1,5 @@
 [build]
+  base = "app-biomed-netlify"  # <- a subpasta onde está o package.json
   command = "npm run build"
   publish = "out"
 
